@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H1q-6D-cTP">
+                                <rect key="frame" x="70" y="120" width="460" height="200"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="YpD-W0-77u"/>
+                                </constraints>
+                                <state key="normal" title="点我">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonClickAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I3c-X9-ib9"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="16X-R2-HId">
+                                <rect key="frame" x="70" y="366" width="460" height="224"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="选了这些东西" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uh4-mb-yei">
+                                <rect key="frame" x="70" y="337" width="460" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="uh4-mb-yei" firstAttribute="top" secondItem="H1q-6D-cTP" secondAttribute="bottom" constant="17" id="78G-Iv-eCB"/>
+                            <constraint firstItem="16X-R2-HId" firstAttribute="top" secondItem="uh4-mb-yei" secondAttribute="bottom" constant="8" symbolic="YES" id="DRJ-yV-30L"/>
+                            <constraint firstItem="16X-R2-HId" firstAttribute="trailing" secondItem="uh4-mb-yei" secondAttribute="trailing" id="DwF-im-kMA"/>
+                            <constraint firstItem="16X-R2-HId" firstAttribute="leading" secondItem="uh4-mb-yei" secondAttribute="leading" id="H6j-BN-chc"/>
+                            <constraint firstItem="16X-R2-HId" firstAttribute="leading" secondItem="H1q-6D-cTP" secondAttribute="leading" id="Hhp-o6-KkL"/>
+                            <constraint firstItem="16X-R2-HId" firstAttribute="trailing" secondItem="H1q-6D-cTP" secondAttribute="trailing" id="IHU-Fp-Oy2"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="H1q-6D-cTP" secondAttribute="trailing" constant="50" id="UuY-6P-tGV"/>
+                            <constraint firstItem="H1q-6D-cTP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="Zy4-KX-NeR"/>
+                            <constraint firstItem="16X-R2-HId" firstAttribute="top" secondItem="H1q-6D-cTP" secondAttribute="bottom" constant="46" id="aQq-nF-kRq"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="16X-R2-HId" secondAttribute="bottom" constant="10" id="vyd-gB-ZED"/>
+                            <constraint firstItem="H1q-6D-cTP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="yIJ-VK-vAu"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="resultTableView" destination="16X-R2-HId" id="RFe-SL-fLd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

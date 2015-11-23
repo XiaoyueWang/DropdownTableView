@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		903472291C016E9A000BFC1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 903472281C016E9A000BFC1D /* main.m */; };
+		9034722C1C016E9A000BFC1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9034722B1C016E9A000BFC1D /* AppDelegate.m */; };
+		9034722F1C016E9A000BFC1D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9034722E1C016E9A000BFC1D /* ViewController.m */; };
+		903472321C016E9A000BFC1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 903472301C016E9A000BFC1D /* Main.storyboard */; };
+		903472341C016E9A000BFC1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 903472331C016E9A000BFC1D /* Assets.xcassets */; };
+		903472371C016E9A000BFC1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 903472351C016E9A000BFC1D /* LaunchScreen.storyboard */; };
+		903472421C016E9B000BFC1D /* DropdownTableViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 903472411C016E9B000BFC1D /* DropdownTableViewDemoTests.m */; };
+		9034724D1C016E9B000BFC1D /* DropdownTableViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9034724C1C016E9B000BFC1D /* DropdownTableViewDemoUITests.m */; };
+		903472941C017034000BFC1D /* DropDownTableViewDemoData.m in Sources */ = {isa = PBXBuildFile; fileRef = 903472931C017034000BFC1D /* DropDownTableViewDemoData.m */; };
+		903472981C017FBB000BFC1D /* DropdownTableViewDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 903472971C017FBB000BFC1D /* DropdownTableViewDemo.m */; };
+		903472AA1C03436F000BFC1D /* DropDownFirstLevelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9034729C1C03436F000BFC1D /* DropDownFirstLevelTableViewCell.m */; };
+		903472AB1C03436F000BFC1D /* DropDownFirstLevelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9034729D1C03436F000BFC1D /* DropDownFirstLevelTableViewCell.xib */; };
+		903472AC1C03436F000BFC1D /* DropDownSecondLevelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9034729F1C03436F000BFC1D /* DropDownSecondLevelTableViewCell.m */; };
+		903472AD1C03436F000BFC1D /* DropDownSecondLevelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 903472A01C03436F000BFC1D /* DropDownSecondLevelTableViewCell.xib */; };
+		903472AE1C03436F000BFC1D /* DropDownThirdLevelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 903472A21C03436F000BFC1D /* DropDownThirdLevelTableViewCell.m */; };
+		903472AF1C03436F000BFC1D /* DropDownThirdLevelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 903472A31C03436F000BFC1D /* DropDownThirdLevelTableViewCell.xib */; };
+		903472B01C03436F000BFC1D /* DropDownTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 903472A61C03436F000BFC1D /* DropDownTableView.m */; };
+		903472B11C03436F000BFC1D /* DropDownTableViewViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 903472A91C03436F000BFC1D /* DropDownTableViewViewModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9034723E1C016E9B000BFC1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9034721C1C016E9A000BFC1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 903472231C016E9A000BFC1D;
+			remoteInfo = DropdownTableViewDemo;
+		};
+		903472491C016E9B000BFC1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9034721C1C016E9A000BFC1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 903472231C016E9A000BFC1D;
+			remoteInfo = DropdownTableViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		903472241C016E9A000BFC1D /* DropdownTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropdownTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		903472281C016E9A000BFC1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9034722A1C016E9A000BFC1D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9034722B1C016E9A000BFC1D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9034722D1C016E9A000BFC1D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9034722E1C016E9A000BFC1D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		903472311C016E9A000BFC1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		903472331C016E9A000BFC1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		903472361C016E9A000BFC1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		903472381C016E9A000BFC1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9034723D1C016E9B000BFC1D /* DropdownTableViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropdownTableViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		903472411C016E9B000BFC1D /* DropdownTableViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropdownTableViewDemoTests.m; sourceTree = "<group>"; };
+		903472431C016E9B000BFC1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		903472481C016E9B000BFC1D /* DropdownTableViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropdownTableViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9034724C1C016E9B000BFC1D /* DropdownTableViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropdownTableViewDemoUITests.m; sourceTree = "<group>"; };
+		9034724E1C016E9B000BFC1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		903472921C017034000BFC1D /* DropDownTableViewDemoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropDownTableViewDemoData.h; sourceTree = "<group>"; };
+		903472931C017034000BFC1D /* DropDownTableViewDemoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropDownTableViewDemoData.m; sourceTree = "<group>"; };
+		903472961C017FBB000BFC1D /* DropdownTableViewDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropdownTableViewDemo.h; sourceTree = "<group>"; };
+		903472971C017FBB000BFC1D /* DropdownTableViewDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropdownTableViewDemo.m; sourceTree = "<group>"; };
+		9034729B1C03436F000BFC1D /* DropDownFirstLevelTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropDownFirstLevelTableViewCell.h; sourceTree = "<group>"; };
+		9034729C1C03436F000BFC1D /* DropDownFirstLevelTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropDownFirstLevelTableViewCell.m; sourceTree = "<group>"; };
+		9034729D1C03436F000BFC1D /* DropDownFirstLevelTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DropDownFirstLevelTableViewCell.xib; sourceTree = "<group>"; };
+		9034729E1C03436F000BFC1D /* DropDownSecondLevelTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropDownSecondLevelTableViewCell.h; sourceTree = "<group>"; };
+		9034729F1C03436F000BFC1D /* DropDownSecondLevelTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropDownSecondLevelTableViewCell.m; sourceTree = "<group>"; };
+		903472A01C03436F000BFC1D /* DropDownSecondLevelTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DropDownSecondLevelTableViewCell.xib; sourceTree = "<group>"; };
+		903472A11C03436F000BFC1D /* DropDownThirdLevelTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropDownThirdLevelTableViewCell.h; sourceTree = "<group>"; };
+		903472A21C03436F000BFC1D /* DropDownThirdLevelTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropDownThirdLevelTableViewCell.m; sourceTree = "<group>"; };
+		903472A31C03436F000BFC1D /* DropDownThirdLevelTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DropDownThirdLevelTableViewCell.xib; sourceTree = "<group>"; };
+		903472A51C03436F000BFC1D /* DropDownTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropDownTableView.h; sourceTree = "<group>"; };
+		903472A61C03436F000BFC1D /* DropDownTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropDownTableView.m; sourceTree = "<group>"; };
+		903472A81C03436F000BFC1D /* DropDownTableViewViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropDownTableViewViewModel.h; sourceTree = "<group>"; };
+		903472A91C03436F000BFC1D /* DropDownTableViewViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropDownTableViewViewModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		903472211C016E9A000BFC1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9034723A1C016E9B000BFC1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903472451C016E9B000BFC1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9034721B1C016E9A000BFC1D = {
+			isa = PBXGroup;
+			children = (
+				903472991C03436F000BFC1D /* DropdownTableView */,
+				903472261C016E9A000BFC1D /* DropdownTableViewDemo */,
+				903472401C016E9B000BFC1D /* DropdownTableViewDemoTests */,
+				9034724B1C016E9B000BFC1D /* DropdownTableViewDemoUITests */,
+				903472251C016E9A000BFC1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		903472251C016E9A000BFC1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				903472241C016E9A000BFC1D /* DropdownTableViewDemo.app */,
+				9034723D1C016E9B000BFC1D /* DropdownTableViewDemoTests.xctest */,
+				903472481C016E9B000BFC1D /* DropdownTableViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		903472261C016E9A000BFC1D /* DropdownTableViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				903472951C017FA0000BFC1D /* Demo */,
+				903472911C017023000BFC1D /* DemoData */,
+				9034722A1C016E9A000BFC1D /* AppDelegate.h */,
+				9034722B1C016E9A000BFC1D /* AppDelegate.m */,
+				9034722D1C016E9A000BFC1D /* ViewController.h */,
+				9034722E1C016E9A000BFC1D /* ViewController.m */,
+				903472301C016E9A000BFC1D /* Main.storyboard */,
+				903472331C016E9A000BFC1D /* Assets.xcassets */,
+				903472351C016E9A000BFC1D /* LaunchScreen.storyboard */,
+				903472381C016E9A000BFC1D /* Info.plist */,
+				903472271C016E9A000BFC1D /* Supporting Files */,
+			);
+			path = DropdownTableViewDemo;
+			sourceTree = "<group>";
+		};
+		903472271C016E9A000BFC1D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				903472281C016E9A000BFC1D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		903472401C016E9B000BFC1D /* DropdownTableViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				903472411C016E9B000BFC1D /* DropdownTableViewDemoTests.m */,
+				903472431C016E9B000BFC1D /* Info.plist */,
+			);
+			path = DropdownTableViewDemoTests;
+			sourceTree = "<group>";
+		};
+		9034724B1C016E9B000BFC1D /* DropdownTableViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9034724C1C016E9B000BFC1D /* DropdownTableViewDemoUITests.m */,
+				9034724E1C016E9B000BFC1D /* Info.plist */,
+			);
+			path = DropdownTableViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		903472911C017023000BFC1D /* DemoData */ = {
+			isa = PBXGroup;
+			children = (
+				903472921C017034000BFC1D /* DropDownTableViewDemoData.h */,
+				903472931C017034000BFC1D /* DropDownTableViewDemoData.m */,
+			);
+			name = DemoData;
+			sourceTree = "<group>";
+		};
+		903472951C017FA0000BFC1D /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				903472961C017FBB000BFC1D /* DropdownTableViewDemo.h */,
+				903472971C017FBB000BFC1D /* DropdownTableViewDemo.m */,
+			);
+			name = Demo;
+			sourceTree = "<group>";
+		};
+		903472991C03436F000BFC1D /* DropdownTableView */ = {
+			isa = PBXGroup;
+			children = (
+				9034729A1C03436F000BFC1D /* cell */,
+				903472A41C03436F000BFC1D /* view */,
+				903472A71C03436F000BFC1D /* viewModel */,
+			);
+			path = DropdownTableView;
+			sourceTree = "<group>";
+		};
+		9034729A1C03436F000BFC1D /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				9034729B1C03436F000BFC1D /* DropDownFirstLevelTableViewCell.h */,
+				9034729C1C03436F000BFC1D /* DropDownFirstLevelTableViewCell.m */,
+				9034729D1C03436F000BFC1D /* DropDownFirstLevelTableViewCell.xib */,
+				9034729E1C03436F000BFC1D /* DropDownSecondLevelTableViewCell.h */,
+				9034729F1C03436F000BFC1D /* DropDownSecondLevelTableViewCell.m */,
+				903472A01C03436F000BFC1D /* DropDownSecondLevelTableViewCell.xib */,
+				903472A11C03436F000BFC1D /* DropDownThirdLevelTableViewCell.h */,
+				903472A21C03436F000BFC1D /* DropDownThirdLevelTableViewCell.m */,
+				903472A31C03436F000BFC1D /* DropDownThirdLevelTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		903472A41C03436F000BFC1D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				903472A51C03436F000BFC1D /* DropDownTableView.h */,
+				903472A61C03436F000BFC1D /* DropDownTableView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		903472A71C03436F000BFC1D /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				903472A81C03436F000BFC1D /* DropDownTableViewViewModel.h */,
+				903472A91C03436F000BFC1D /* DropDownTableViewViewModel.m */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		903472231C016E9A000BFC1D /* DropdownTableViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 903472511C016E9B000BFC1D /* Build configuration list for PBXNativeTarget "DropdownTableViewDemo" */;
+			buildPhases = (
+				903472201C016E9A000BFC1D /* Sources */,
+				903472211C016E9A000BFC1D /* Frameworks */,
+				903472221C016E9A000BFC1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropdownTableViewDemo;
+			productName = DropdownTableViewDemo;
+			productReference = 903472241C016E9A000BFC1D /* DropdownTableViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9034723C1C016E9B000BFC1D /* DropdownTableViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 903472541C016E9B000BFC1D /* Build configuration list for PBXNativeTarget "DropdownTableViewDemoTests" */;
+			buildPhases = (
+				903472391C016E9B000BFC1D /* Sources */,
+				9034723A1C016E9B000BFC1D /* Frameworks */,
+				9034723B1C016E9B000BFC1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9034723F1C016E9B000BFC1D /* PBXTargetDependency */,
+			);
+			name = DropdownTableViewDemoTests;
+			productName = DropdownTableViewDemoTests;
+			productReference = 9034723D1C016E9B000BFC1D /* DropdownTableViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		903472471C016E9B000BFC1D /* DropdownTableViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 903472571C016E9B000BFC1D /* Build configuration list for PBXNativeTarget "DropdownTableViewDemoUITests" */;
+			buildPhases = (
+				903472441C016E9B000BFC1D /* Sources */,
+				903472451C016E9B000BFC1D /* Frameworks */,
+				903472461C016E9B000BFC1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9034724A1C016E9B000BFC1D /* PBXTargetDependency */,
+			);
+			name = DropdownTableViewDemoUITests;
+			productName = DropdownTableViewDemoUITests;
+			productReference = 903472481C016E9B000BFC1D /* DropdownTableViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9034721C1C016E9A000BFC1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = uncle.chen;
+				TargetAttributes = {
+					903472231C016E9A000BFC1D = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					9034723C1C016E9B000BFC1D = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 903472231C016E9A000BFC1D;
+					};
+					903472471C016E9B000BFC1D = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 903472231C016E9A000BFC1D;
+					};
+				};
+			};
+			buildConfigurationList = 9034721F1C016E9A000BFC1D /* Build configuration list for PBXProject "DropdownTableViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9034721B1C016E9A000BFC1D;
+			productRefGroup = 903472251C016E9A000BFC1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				903472231C016E9A000BFC1D /* DropdownTableViewDemo */,
+				9034723C1C016E9B000BFC1D /* DropdownTableViewDemoTests */,
+				903472471C016E9B000BFC1D /* DropdownTableViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		903472221C016E9A000BFC1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903472AB1C03436F000BFC1D /* DropDownFirstLevelTableViewCell.xib in Resources */,
+				903472371C016E9A000BFC1D /* LaunchScreen.storyboard in Resources */,
+				903472341C016E9A000BFC1D /* Assets.xcassets in Resources */,
+				903472AF1C03436F000BFC1D /* DropDownThirdLevelTableViewCell.xib in Resources */,
+				903472AD1C03436F000BFC1D /* DropDownSecondLevelTableViewCell.xib in Resources */,
+				903472321C016E9A000BFC1D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9034723B1C016E9B000BFC1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903472461C016E9B000BFC1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		903472201C016E9A000BFC1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903472B01C03436F000BFC1D /* DropDownTableView.m in Sources */,
+				903472B11C03436F000BFC1D /* DropDownTableViewViewModel.m in Sources */,
+				903472AA1C03436F000BFC1D /* DropDownFirstLevelTableViewCell.m in Sources */,
+				903472AC1C03436F000BFC1D /* DropDownSecondLevelTableViewCell.m in Sources */,
+				903472981C017FBB000BFC1D /* DropdownTableViewDemo.m in Sources */,
+				903472941C017034000BFC1D /* DropDownTableViewDemoData.m in Sources */,
+				9034722F1C016E9A000BFC1D /* ViewController.m in Sources */,
+				903472AE1C03436F000BFC1D /* DropDownThirdLevelTableViewCell.m in Sources */,
+				9034722C1C016E9A000BFC1D /* AppDelegate.m in Sources */,
+				903472291C016E9A000BFC1D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903472391C016E9B000BFC1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903472421C016E9B000BFC1D /* DropdownTableViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903472441C016E9B000BFC1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9034724D1C016E9B000BFC1D /* DropdownTableViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9034723F1C016E9B000BFC1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 903472231C016E9A000BFC1D /* DropdownTableViewDemo */;
+			targetProxy = 9034723E1C016E9B000BFC1D /* PBXContainerItemProxy */;
+		};
+		9034724A1C016E9B000BFC1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 903472231C016E9A000BFC1D /* DropdownTableViewDemo */;
+			targetProxy = 903472491C016E9B000BFC1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		903472301C016E9A000BFC1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				903472311C016E9A000BFC1D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		903472351C016E9A000BFC1D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				903472361C016E9A000BFC1D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9034724F1C016E9B000BFC1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		903472501C016E9B000BFC1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		903472521C016E9B000BFC1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DropdownTableViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uncle.chen.DropdownTableViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		903472531C016E9B000BFC1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DropdownTableViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uncle.chen.DropdownTableViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		903472551C016E9B000BFC1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DropdownTableViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uncle.chen.DropdownTableViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DropdownTableViewDemo.app/DropdownTableViewDemo";
+			};
+			name = Debug;
+		};
+		903472561C016E9B000BFC1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DropdownTableViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uncle.chen.DropdownTableViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DropdownTableViewDemo.app/DropdownTableViewDemo";
+			};
+			name = Release;
+		};
+		903472581C016E9B000BFC1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DropdownTableViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uncle.chen.DropdownTableViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DropdownTableViewDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		903472591C016E9B000BFC1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DropdownTableViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uncle.chen.DropdownTableViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DropdownTableViewDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9034721F1C016E9A000BFC1D /* Build configuration list for PBXProject "DropdownTableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9034724F1C016E9B000BFC1D /* Debug */,
+				903472501C016E9B000BFC1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		903472511C016E9B000BFC1D /* Build configuration list for PBXNativeTarget "DropdownTableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903472521C016E9B000BFC1D /* Debug */,
+				903472531C016E9B000BFC1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		903472541C016E9B000BFC1D /* Build configuration list for PBXNativeTarget "DropdownTableViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903472551C016E9B000BFC1D /* Debug */,
+				903472561C016E9B000BFC1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		903472571C016E9B000BFC1D /* Build configuration list for PBXNativeTarget "DropdownTableViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903472581C016E9B000BFC1D /* Debug */,
+				903472591C016E9B000BFC1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9034721C1C016E9A000BFC1D /* Project object */;
+}
