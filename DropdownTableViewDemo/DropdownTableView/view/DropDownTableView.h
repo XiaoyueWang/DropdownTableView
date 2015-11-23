@@ -19,6 +19,11 @@ typedef NS_ENUM(NSInteger, DropDownTableViewButton) {
 @property (nonatomic, strong) NSArray *mainArray;/**< 输入数据 */
 @property (nonatomic, strong) NSMutableArray *selectArray;/**< 已选择数组 */
 
+/*
+ * parameters
+ * selectArray  选中数据
+ * allArray     全部数据
+ */
 typedef void (^ConfirmBlock)(NSArray *selectArray, NSArray *allArray);
 @property (nonatomic, copy) ConfirmBlock confirmBlock;
 
