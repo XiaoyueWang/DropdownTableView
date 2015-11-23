@@ -34,7 +34,7 @@
     DropdownTableViewDemo *dropDownTableViewDemo = [[DropdownTableViewDemo alloc] initWithFrame:({
         CGRectMake(0, 20.f,
                    CGRectGetWidth([UIScreen mainScreen].bounds),
-                   CGRectGetHeight([UIScreen mainScreen].bounds));
+                   CGRectGetHeight([UIScreen mainScreen].bounds)-20.f);
     })];
     dropDownTableViewDemo.confirmBlock = ^(NSArray *selectArray, NSArray *allArray) {
         globalSelectArray = selectArray;
