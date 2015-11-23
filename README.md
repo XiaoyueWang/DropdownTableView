@@ -42,5 +42,5 @@ UITableView+MVVM+block实现三级下钻功能
      */
     typedef void (^ConfirmBlock)(NSArray *selectArray, NSArray *allArray);
     @property (nonatomic, copy) ConfirmBlock confirmBlock;
-## 当然，最后的效果是这样的（请原谅粗糙的gif图……）
+## 当然，最后的效果是这样的
 ![Alt text](DropdownTableViewDemo.gif)
