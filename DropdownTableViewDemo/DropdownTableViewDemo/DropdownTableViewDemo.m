@@ -39,7 +39,7 @@
         _dropDownTableView = [[DropDownTableView alloc] initWithFrame:({
             CGRectMake(0, 44.f,
                        CGRectGetWidth(self.frame),
-                       CGRectGetHeight(self.frame));
+                       CGRectGetHeight(self.frame)-44.f);
         })];
         _dropDownTableView.mainArray = [DropDownTableViewDemoData createData];
         WS(weakSelf);
