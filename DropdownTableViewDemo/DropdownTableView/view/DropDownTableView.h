@@ -8,12 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-typedef NS_ENUM(NSInteger, DropDownTableViewButton) {
-    DropDownTableViewButtonCancle,
-    DropDownTableViewButtonSelectAll,
-    DropDownTableViewButtonConfirm,
-};
-
 @interface DropDownTableView : UITableView
 
 @property (nonatomic, strong) NSArray *mainArray;/**< 输入数据 */
